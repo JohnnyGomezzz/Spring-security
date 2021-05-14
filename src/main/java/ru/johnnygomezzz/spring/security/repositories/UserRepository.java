@@ -1,8 +1,8 @@
 package ru.johnnygomezzz.spring.security.repositories;
 
-import com.flamexander.spring.security.cookbook.dao.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+import ru.johnnygomezzz.spring.security.entities.User;
 
 import java.util.Optional;
 

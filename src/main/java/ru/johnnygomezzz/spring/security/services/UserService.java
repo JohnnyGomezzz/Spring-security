@@ -1,8 +1,5 @@
 package ru.johnnygomezzz.spring.security.services;
 
-import com.flamexander.spring.security.cookbook.dao.entities.Role;
-import com.flamexander.spring.security.cookbook.dao.entities.User;
-import com.flamexander.spring.security.cookbook.dao.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -11,6 +8,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ru.johnnygomezzz.spring.security.entities.Role;
+import ru.johnnygomezzz.spring.security.entities.User;
+import ru.johnnygomezzz.spring.security.repositories.UserRepository;
 
 import java.util.Collection;
 import java.util.Optional;

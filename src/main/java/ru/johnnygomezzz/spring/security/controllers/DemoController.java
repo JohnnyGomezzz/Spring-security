@@ -1,10 +1,10 @@
 package ru.johnnygomezzz.spring.security.controllers;
 
-import com.flamexander.spring.security.cookbook.dao.entities.User;
-import com.flamexander.spring.security.cookbook.dao.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ru.johnnygomezzz.spring.security.entities.User;
+import ru.johnnygomezzz.spring.security.services.UserService;
 
 import java.security.Principal;
 
