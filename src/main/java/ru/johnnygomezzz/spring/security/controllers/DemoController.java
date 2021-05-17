@@ -29,7 +29,6 @@ public class DemoController {
     }
 
     @GetMapping("/admin")
-    // @PreAuthorize("hasRole('ADMIN')")
     public String adminPage() {
         return "admin";
     }
