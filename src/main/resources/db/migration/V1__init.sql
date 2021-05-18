@@ -8,7 +8,9 @@ create table users (
 
 insert into users (username, password, email)
 values
-('user', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'user@gmail.com'),
+('user1', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'user1@gmail.com'),
+('user2', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'user2@gmail.com'),
+('user3', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'user3@gmail.com'),
 ('admin', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'admin@gmail.com');
 
 create table permissions (
@@ -35,7 +37,9 @@ create table users_permissions (
 insert into users_permissions (user_id, permission_id)
 values
 (1, 1),
-(2, 1),
 (2, 2),
-(2, 3),
-(2, 4);
+(3, 3),
+(4, 1),
+(4, 2),
+(4, 3),
+(4, 4);

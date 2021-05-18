@@ -28,9 +28,19 @@ public class DemoController {
         return "authenticated";
     }
 
-    @GetMapping("/admin")
-    public String adminPage() {
-        return "admin";
+    @GetMapping("/admin/create")
+    public String createUserPage() {
+        return "create user";
+    }
+
+    @GetMapping("/admin/delete")
+    public String deleteUserPage() {
+        return "delete user";
+    }
+
+    @GetMapping("/admin/modify")
+    public String modifyProductPage() {
+        return "modify product";
     }
 
     @GetMapping("/user_info")
