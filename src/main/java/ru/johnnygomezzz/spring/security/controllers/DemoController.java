@@ -19,7 +19,7 @@ public class DemoController {
     }
 
     @GetMapping("/unsecured")
-    public String usecuredPage() {
+    public String unsecuredPage() {
         return "unsecured";
     }
 

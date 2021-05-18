@@ -22,7 +22,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/authenticated/**").authenticated()
                 .antMatchers("/user_info").authenticated()
-                .antMatchers("/admin/**").hasAnyAuthority("PERMISSION_CHECK_PRODUCTS")
+                .antMatchers("/admin/**").hasAnyAuthority("PERMISSION_CREATE_USERS")
                 .and()
                 .formLogin();
     }
